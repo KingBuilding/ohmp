@@ -5,6 +5,8 @@ import java.util.Map;
 
 import javax.sql.DataSource;
 
+import com.ohmp.study.dynamic.config.prop.Db0Properties;
+import com.ohmp.study.dynamic.config.prop.Db1Properties;
 import org.mybatis.spring.SqlSessionFactoryBean;
 import org.mybatis.spring.annotation.MapperScan;
 import org.slf4j.Logger;
@@ -18,8 +20,7 @@ import org.springframework.jdbc.datasource.DataSourceTransactionManager;
 import org.springframework.transaction.PlatformTransactionManager;
 
 import com.alibaba.druid.pool.DruidDataSourceFactory;
-import com.gitee.taven.config.prop.Db0Properties;
-import com.gitee.taven.config.prop.Db1Properties;
+
 
 /**
  * 多数据源配置

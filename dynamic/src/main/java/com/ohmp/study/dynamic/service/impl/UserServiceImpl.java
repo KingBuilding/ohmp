@@ -1,11 +1,12 @@
 package com.ohmp.study.dynamic.service.impl;
 
+import com.ohmp.study.dynamic.entity.User;
+import com.ohmp.study.dynamic.mapper.UserMapper;
+import com.ohmp.study.dynamic.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.gitee.taven.entity.User;
-import com.gitee.taven.mapper.UserMapper;
-import com.gitee.taven.service.UserService;
+
 
 @Service
 public class UserServiceImpl implements UserService {

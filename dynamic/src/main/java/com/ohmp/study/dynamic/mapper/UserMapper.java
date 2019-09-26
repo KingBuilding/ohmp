@@ -1,8 +1,9 @@
 package com.ohmp.study.dynamic.mapper;
 
-import com.gitee.taven.entity.User;
-import com.gitee.taven.entity.UserExample;
 import java.util.List;
+
+import com.ohmp.study.dynamic.entity.User;
+import com.ohmp.study.dynamic.entity.UserExample;
 import org.apache.ibatis.annotations.Param;
 
 public interface UserMapper {

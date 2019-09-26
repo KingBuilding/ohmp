@@ -1,6 +1,7 @@
 package com.ohmp.study.dynamic.service;
 
-import com.gitee.taven.entity.User;
+
+import com.ohmp.study.dynamic.entity.User;
 
 public interface UserService {
 
