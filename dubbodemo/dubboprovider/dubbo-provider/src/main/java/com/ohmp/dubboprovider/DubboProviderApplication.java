@@ -1,13 +1,13 @@
-package com.ohmp.study.devopsproject;
+package com.ohmp.dubboprovider;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class DevopsprojectApplication {
+public class DubboProviderApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(DevopsprojectApplication.class, args);
+        SpringApplication.run(DubboProviderApplication.class, args);
     }
 
 }
