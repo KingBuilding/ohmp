@@ -1,0 +1,2 @@
+dubboProviderFilter=com.ohmp.filter.DubboProviderFilter
+exceptionFilters=com.ohmp.filter.ExceptionFilter
